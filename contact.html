@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-style.css">
     <title>Kimi Inglet</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <div id="inside-header"><h1>Kimi Inglet</h1>
-            <nav>
-                    <a href="index.html">About |</a>
-                    <a href="portfolio.html">Portfolio |</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Kimi Inglet</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About |<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+
+    <!-- Contact info box -->
+    <div id="container">
+        <div id="inside-container">
+            <div class="row">
+                <h2>Contact</h2></div>
+                <hr>
+                <div class="row">
+                <form action="/action_page.php">
+
+                    <label for="fname">Your Name</label><br>
+                    <input type="text" name="yourname" id="name" placeholder="John Smith">
+                    <br>
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" id="email" placeholder="example@email.com">
+                    <br>
+                    <label for="subject">Message</label><br>
+                    <textarea type="text" id="message" name="message" placeholder="Leave a Message"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
     </div>
-</header>
-<br>
-
-<!-- Contact info box -->
-<div id="container">
-    <section><h2>Contact</h2></section><hr>
-    <form action="/action_page.php">
-
-        <label for="fname">Your Name</label><br>
-        <input type="text" name="yourname" id="name" placeholder="John Smith">
-<br>
-        <label for="email">Email</label><br>
-        <input type="text" name="email" id="email" placeholder="example@email.com">
-<br>
-        <label for="subject">Message</label><br>
-        <textarea type="text" id="message" name="message" placeholder="" style="height:80px; width:812px;"></textarea>
-<br>
-        <input type="submit" value="Submit">
-    </form>
-</div>
 </body>
 
 <footer>
     <p>copyright &copy;</p>
 </footer>
+
 </html>
