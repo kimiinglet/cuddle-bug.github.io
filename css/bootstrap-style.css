@@ -183,7 +183,18 @@ input[type=submit] {
 
  }
 
+ a.nav-link {
+    color: blue;
+}
+
  textarea {
     overflow: auto;
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
