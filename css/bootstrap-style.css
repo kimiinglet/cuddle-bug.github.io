@@ -5,7 +5,7 @@
 
 body {
     background-color:slategray;
-    background-image: url(../assets/images/beanstalk\ copy.png);
+    background-image: url(../assets/images/cheap_diagonal_fabric.png);
 }
 
 nav {
@@ -52,9 +52,10 @@ h1 {
 h2 {
     text-align: left;
     clear:both;
-    color:#4aaaa5;
+    color:black;
     font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-family: fantasy;
 }
 
 footer {
@@ -86,7 +87,7 @@ p {
     padding: 20px;
     border: solid 1px lightgray;
     margin: 0 auto;
-    background: #ffffff;
+    background:#acacac;
 
 }
 
@@ -94,14 +95,15 @@ img {
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
+    padding: 5px;
 }
 
-.gallery {
+/*.gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 15px;
-}
+}*/
 
 #bio-image { 
     float: left;
@@ -176,16 +178,12 @@ input[type=submit] {
  h3 {
      width: 100%;
      bottom: 0;
-     font-size: 24px;
+     font-size: 18px;
      background-color: #4aaaa5;
      text-align: center;
      position: absolute;
-
+     opacity: 0.8;
  }
-
- a.nav-link {
-    color: blue;
-}
 
  textarea {
     overflow: auto;
@@ -197,4 +195,11 @@ input[type=submit] {
       background-color: lightblue;
     }
   }
+
+@media (min-width: 768px)
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 
