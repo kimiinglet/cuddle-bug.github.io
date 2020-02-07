@@ -19,12 +19,14 @@ https://kimiinglet.github.io/cuddle-bug.github.io/
     
     ![employeeTracker](gif needs to be)
     
-
 #Note-Taker
     -Here is an app that you ca use to write, save, and delete notes. This was my first assignment into using express and writing back-end code.
         -It retrieves the note data from a JSON file
 
-![Demonstration of Note Taker as a gif](https://github.com/cml2377/Note-Taker/blob/master/public/assets/demo.gif)
+
+
+#Password Generator
+    -Create a random password with this password generator I created with JavaScript.
 
 
                                             LAST UPDATED: 02-07-2020
